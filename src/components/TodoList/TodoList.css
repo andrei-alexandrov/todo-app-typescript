@@ -1,0 +1,7 @@
+.todos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
