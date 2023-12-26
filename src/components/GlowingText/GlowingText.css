@@ -1,5 +1,4 @@
 :root {
-    --bg: #000000;
     --clr-1: #00c2ff;
     --clr-2: #33ff8c;
     --clr-3: #ffc640;
@@ -10,18 +9,14 @@
             -3.5px);
 }
 
-.content {
-    margin-top: 26px;
-    margin-bottom: 36px;
-}
-
 .title {
     font-size: var(--fs);
     letter-spacing: var(--ls);
     position: relative;
     overflow: hidden;
-    background: var(--bg);
     margin: 0;
+    margin-top: 26px;
+    margin-bottom: 36px;
 }
 
 .aurora {
