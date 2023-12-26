@@ -8,7 +8,7 @@ I will implement redux toolkit and add new feautures soon.
 <br />
 Technologies used: React.js, TypeScript, CSS. Fully responsive.
 
-Open this link [https://todo-app-typescript-vbqm.vercel.app/](https://todo-app-typescript-vbqm.vercel.app/) to view it.
+Open this link [https://todo-app-typescript-andrei.vercel.app/](https://todo-app-typescript-andrei.vercel.app/) to view it.
 
 ## Site images
 ![home-image](./src/images/daily-tasks-app.png)
