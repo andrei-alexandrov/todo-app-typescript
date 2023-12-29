@@ -20,41 +20,9 @@
     outline: none;
 }
 
-.input-submit {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin: 12px;
-    border-radius: 50px;
-    right: 0px;
-    border: none;
-    font-size: 15px;
-    background-color: #373e4c;
-    color: white;
-    transition: 0.2s all;
-    box-shadow: 0 0 10px black;
-}
-
-.input-submit:hover {
-    background-color: #3f7ad8;
-    cursor: pointer;
-}
-
-.input-submit:active {
-    transform: scale(0.8);
-    box-shadow: 0 0 5px black;
-}
-
 @media screen and (max-width: 991px) {
     .input-box {
         margin-left: 25px;
         margin-right: 25px;
-    }
-
-    .input-submit {
-        width: 45px;
-        height: 45px;
-        right: 28px;
-        font-size: 12px;
     }
 }

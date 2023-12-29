@@ -1,0 +1,57 @@
+:root {
+    --btnPosition: absolute;
+    --borderRadius: 50px;
+    --right: 0px;
+    --border: none;
+    --backgroundColor: #373e4c;
+    --color: white;
+}
+
+.input-submit-btn {
+    background-color: var(--backgroundColor);
+    color: var(--color);
+    position: var(--btnPosition);
+    border-radius: var(--borderRadius);
+    right: var(--right);
+    border: var(--border);
+    box-shadow: 0 0 10px black;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    font-size: 15px;
+    transition: 0.2s all;
+}
+
+.input-submit-btn:hover,
+.edit-submit-btn:hover {
+    background-color: #3f7ad8;
+    cursor: pointer;
+}
+
+.input-submit-btn:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+}
+
+.edit-submit-btn {
+    background-color: var(--backgroundColor);
+    color: var(--color);
+    position: var(--btnPosition);
+    border-radius: var(--borderRadius);
+    right: var(--right);
+    border: var(--border);
+    box-shadow: 0 0 3px black;
+    margin-right: 10px;
+    height: 23px;
+    width: 23px;
+    font-size: 8px;
+}
+
+@media screen and (max-width: 991px) {
+    .input-submit-btn {
+        width: 45px;
+        height: 45px;
+        right: 28px;
+        font-size: 12px;
+    }
+}

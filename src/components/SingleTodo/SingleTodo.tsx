@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { AiFillDelete, AiFillEdit } from "react-icons/ai";
 import { MdDone } from "react-icons/md";
 import { Todo } from "../../model";
+import Button from "../Button/Button";
 
 import "./SingleTodo.css";
 
@@ -52,12 +53,7 @@ const SingleTodo: React.FC<Props> = ({ todo, todos, setTodos }) => {
                         value={editTodo}
                         onChange={(e) => setEditTodo(e.target.value)}
                     />
-                    <button
-                        className="edit-submit-btn"
-                        type="submit"
-                    >
-                        Ok
-                    </button>
+                    <Button isEditButton={true}>Ok</Button>
                 </div>
                 :
                 todo.isDone ?

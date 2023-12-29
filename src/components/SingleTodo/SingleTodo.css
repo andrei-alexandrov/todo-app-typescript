@@ -28,25 +28,6 @@
     justify-content: center;
 }
 
-.edit-submit-btn {
-    position: absolute;
-    right: 0;
-    margin-right: 10px;
-    border-radius: 50%;
-    height: 23px;
-    border: none;
-    background-color: #373e4c;
-    color: white;
-    font-size: 8px;
-    box-shadow: 0 0 3px black;
-}
-
-.edit-submit-btn:hover {
-    cursor: pointer;
-    background-color: #3f7ad8;
-    color: white;
-}
-
 .icon-wrapper {
     position: relative;
     top: 4px;

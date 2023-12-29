@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./InputField.css";
+import Button from "../Button/Button";
 
 interface Props {
     todo: string | number,
@@ -23,12 +24,7 @@ const InputField: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
                 onChange={(e) => setTodo(e.target.value)}
                 placeholder="Enter a task"
             />
-            <button
-                className="input-submit"
-                type="submit"
-            >
-                Go
-            </button>
+            <Button isEditButton={false}>Go</Button>
         </form>
     )
 }
