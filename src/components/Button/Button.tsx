@@ -2,14 +2,13 @@ import "./Button.css";
 
 type Props = {
     children: string;
-    isEditButton: boolean
+    styleBtn: string;
 }
 
-export default function Button({ children, isEditButton }: Props) {
-    const buttonStyles = isEditButton ? "edit-submit-btn" : "input-submit-btn";
+export default function Button({ children, styleBtn }: Props) {
     return (
         <button
-            className={buttonStyles}
+            className={styleBtn}
             type="submit"
         >
             {children}

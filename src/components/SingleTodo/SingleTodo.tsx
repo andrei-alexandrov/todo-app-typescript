@@ -53,7 +53,7 @@ const SingleTodo: React.FC<Props> = ({ todo, todos, setTodos }) => {
                         value={editTodo}
                         onChange={(e) => setEditTodo(e.target.value)}
                     />
-                    <Button isEditButton={true}>Ok</Button>
+                    <Button styleBtn="edit-submit-btn">Ok</Button>
                 </div>
                 :
                 todo.isDone ?
