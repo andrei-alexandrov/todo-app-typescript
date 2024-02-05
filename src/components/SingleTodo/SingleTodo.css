@@ -1,70 +1,90 @@
 .todos-single {
-    display: flex;
-    width: 30%;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 15px;
-    background: linear-gradient(to right, #373b44, #4286f4);
-    align-items: center;
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background: linear-gradient(to right, #373b44, #4286f4);
+  align-items: center;
 }
 
 .todos-single-text {
-    flex: 1;
-    padding: 5px;
-    border: none;
-    font-size: 20px;
-    width: 220px;
-    border-radius: 8px;
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  width: 220px;
+  border-radius: 8px;
 }
 
 .todos-single-text:focus {
-    outline: none;
+  outline: none;
 }
 
 .edit-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-wrapper {
-    position: relative;
-    top: 4px;
-    font-size: 25px;
-    cursor: pointer;
-    display: flex;
-    gap: 10px;
+  position: relative;
+  top: 4px;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
 }
 
 .edit-icon {
-    position: relative;
-    margin-right: 5px;
-    margin-left: 12px;
+  position: relative;
+  margin-right: 5px;
+  margin-left: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .edit-icon:hover {
-    color: rgb(212, 139, 0);
+  color: rgb(212, 139, 0);
+}
+
+.delete-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .delete-icon:hover {
-    color: rgb(212, 0, 0);
+  color: rgb(212, 0, 0);
+}
+
+.isDone-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .isDone-icon:hover {
-    color: rgb(0, 212, 0);
+  color: rgb(0, 212, 0);
+}
+
+.custom-icon-size {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
-    .input {
-        width: 95%;
-    }
+  .input {
+    width: 95%;
+  }
 
-    .todos {
-        width: 100%;
-    }
+  .todos {
+    width: 100%;
+  }
 
-    .todos-single {
-        width: 85%;
-    }
+  .todos-single {
+    width: 85%;
+  }
 }
