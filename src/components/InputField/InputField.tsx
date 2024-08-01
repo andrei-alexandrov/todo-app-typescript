@@ -2,13 +2,13 @@ import React, { useRef } from "react";
 import "./InputField.css";
 import Button from "../Button/Button";
 
-interface Props {
+type ToDoProps = {
     todo: string | number,
     setTodo: React.Dispatch<React.SetStateAction<string | number>>
     handleAdd: (e: React.FormEvent) => void;
 }
 
-const InputField: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
+const InputField: React.FC<ToDoProps> = ({ todo, setTodo, handleAdd }) => {
     const inputRef = useRef<HTMLInputElement>(null);
 
     return (

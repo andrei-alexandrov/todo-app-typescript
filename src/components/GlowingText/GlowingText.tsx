@@ -1,11 +1,11 @@
 import React from "react";
 import "./GlowingText.css";
 
-interface Props {
+interface GlowingTextProps {
   title: string;
 }
 
-const GlowingText: React.FC<Props> = ({ title }) => {
+const GlowingText: React.FC<GlowingTextProps> = ({ title }) => {
   const auroraItems = Array(4).fill(null);
 
   return (

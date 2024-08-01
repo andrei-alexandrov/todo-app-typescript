@@ -6,13 +6,13 @@ import Button from "../Button/Button";
 
 import "./SingleTodo.css";
 
-type Props = {
+type SingleTodoProps = {
   todo: Todo;
   todos: Todo[];
   setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 };
 
-const SingleTodo: React.FC<Props> = ({ todo, todos, setTodos }) => {
+const SingleTodo: React.FC<SingleTodoProps> = ({ todo, todos, setTodos }) => {
   const [edit, setEdit] = useState<boolean>(false);
   const [editTodo, setEditTodo] = useState<string | number>(todo.todo);
 

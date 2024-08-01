@@ -1,11 +1,11 @@
 import "./Button.css";
 
-type Props = {
+type ButtonProps = {
     children: string;
     styleBtn: string;
 }
 
-export default function Button({ children, styleBtn }: Props) {
+export default function Button({ children, styleBtn }: ButtonProps) {
     return (
         <button
             className={styleBtn}
